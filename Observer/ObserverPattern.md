@@ -4,14 +4,19 @@
 
 유튜브 구독 매커니즘으로 비유하자면 **, 주제(유튜브 채널) + 옵저버(구독자)** 
 
-### 용어
+## 용어
 
-- **Subject**
+### Subject
+
 구독자(ConcreteObserver) 가 이벤트를 받을 주요 주제(Subject)
 해당 Subject의 특정 이벤트 변경 시 구독하고 있는 구독자들이 해당 이벤트를 수신한다.
-- **Observer**
+
+### Observer
+
 구독자들의 부모가 되는 인터페이스 (java 에서는 추상 클래스)
-- **ConcreteObserver**
+
+### ConcreteObserver
+
 Observer 인터페이스를 상속받고, Subject에 등록이 될 객체.
 Subject에 등록(구독) 이 되면 이벤트를 받게된다.
 
